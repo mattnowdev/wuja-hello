@@ -1,0 +1,5 @@
+db: false
+polling: false
+boot: "python3 -m http.server 8000"
+services:
+  - { name: web, port: 8000 }
