@@ -1,5 +1,7 @@
 db: false
 polling: false
+repo: "mattnowdev/wuja-hello"
+base: "main"
 gate: "python3 -m unittest discover -p 'test_*.py'"
 boot: "python3 -m http.server 8000"
 services:
